@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    position: sticky;
+    top: 0; }
+    .header button {
+      border: solid 2px #333 !important;
+      color: #333; }
+      .header button:hover {
+        background-color: #99503D; }
+
+  .service .text-service {
+    max-width: 100% !important;
+    padding: 0 20px !important; }
+
+  .header .nav-item {
+    margin: 10px 0 !important; }
+
+  .footer .banner {
+    padding: 0 20px; }
+  .footer #f1 {
+    flex-direction: column; }
+    .footer #f1 #ft2, .footer #f1 #ft3, .footer #f1 #ft4 {
+      margin-top: 10px; }
+
+  hr {
+    margin: 30px 20px !important; }
+
+  .rider-benefits .rider-banner {
+    flex-direction: column;
+    align-items: center !important; }
+  .rider-benefits .text-rider {
+    max-width: 100% !important;
+    padding: 0 20px !important; }
+
+  .welcome .banner {
+    flex-direction: column; }
+    .welcome .banner div {
+      width: 100% !important; }
+
+  #wr2 {
+    display: none !important; }
+
+  #rg2 {
+    display: none !important; }
+
+  .nav-menu {
+    position: fixed !important;
+    left: -100%;
+    top: 6rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100% !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05); }
+
+  .nav-menu.active {
+    left: 0; }
+
+  .nav-item {
+    margin: 2.5rem 0; }
+
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333 !important; }
+
+  .hamburger {
+    display: block !important;
+    cursor: pointer;
+    right: 10px; }
+    .hamburger .bar {
+      background-color: white !important; }
+
+  .hamburger.active {
+    position: sticky !important;
+    top: 0; }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0; }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg); }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg); } }
+
+/*# sourceMappingURL=mobile.css.map */
